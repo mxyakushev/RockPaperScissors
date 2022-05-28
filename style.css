@@ -1,0 +1,92 @@
+*{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    background-color: rgb(179, 207, 220);
+}
+
+.game {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 300px;
+}
+
+
+h2{
+    color: crimson;
+}
+
+.player-wrapper{
+    width: 150px;
+    height: 200px;
+}
+
+.computer-wrapper{
+    width: 150px;
+    height: 200px;
+}
+
+.button{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 10px;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.result-wrapper{
+    width: 200px;
+}
+
+#rockButton {
+    bottom: 0;
+    left: 20px;
+}
+
+#paperButton {
+    bottom: 0;
+    left: 250px;
+}
+
+#scissorsButton {
+    bottom: 0;
+    right: 20px;
+}
+
+img {
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+}
+
+.player-image{
+    width: 170px;
+    height: 100px;
+}
+
+.computer-image{
+    width: 170px;
+    height: 100px;
+}
+
+p{
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#restartButton {
+    position: relative;
+    top: 30px;
+}
